@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/clock1"
+        android:padding="16dp"
+        android:id="@+id/profile_picture"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_picture"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:text="Sagaciousagacity"
+        android:layout_marginStart="17dp"
+        android:id="@+id/text_name1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/picture_linkedin"
+        android:layout_below="@id/profile_picture"
+        />
+</RelativeLayout>
